@@ -1,0 +1,23 @@
+{
+    "env": "dev",
+    "dev": {
+        "sql": {
+            "host": "本地地址",
+            "user": "用户",
+            "password": "密码",
+            "database": "数据库",
+            "port": 3306
+        },
+        "port": 3000
+    },
+    "prod": {
+        "sql": {
+            "host": "线上地址",
+            "user": "用户",
+            "password": "密码",
+            "database": "数据库",
+            "port": 3306
+        },
+        "port": 8080
+    }
+}
