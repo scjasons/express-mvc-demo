@@ -68,7 +68,7 @@ app.use(function (req, res, next) {
   next()
 });
 
-const controllerArray = ['del', 'upload'];
+const controllerArray = ['del'];
 controllerArray.map(item => {
   app.use('/' + item, require('./controllers/' + item))
 })
