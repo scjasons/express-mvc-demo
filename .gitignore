@@ -8,11 +8,6 @@ yarn-error.log*
 test/unit/coverage
 test/e2e/reports
 selenium-debug.log
-public/assets/*
-public/async-js/*
-public/common/*
-public/index/*
-public/templet/*
 
 # Editor directories and files
 .idea
